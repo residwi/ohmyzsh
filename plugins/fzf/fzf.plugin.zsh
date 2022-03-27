@@ -11,6 +11,7 @@ function fzf_setup_using_base_dir() {
       "/usr/local/opt/fzf"
       "/usr/share/fzf"
       "/usr/local/share/examples/fzf"
+      "/opt/homebrew/opt/fzf"
     )
     for dir in ${fzfdirs}; do
       if [[ -d "${dir}" ]]; then
